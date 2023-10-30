@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: 'Arial';
+    -webkit-font-smoothing : antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url('images/bk.jpg');
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 100%;
+
+}
+#root {
+    height: 74vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 180px;
+}
+code {
+    font-family: Arial;
+
+}
+
+.app {
+    background: #209cee;
+    padding: 30px;
+    height: 100vh;
+
+}
+
+.todo-list{
+    background: rgba(255, 228, 196, 0);
+    border-radius: 4px;
+    padding: 5px;
+    margin: 20px;
+    width: 500px;
+
+}
+.todo {
+    background: rgb(255 255 255 / 75%);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.305);
+    padding: 3px 10px;
+    font-size: 24px;
+    margin-bottom: 8px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 20px;
+    box-shadow: none;
+    padding: 1rem;
+    height: 2.25rem;
+    font-size: 24px;
+}
